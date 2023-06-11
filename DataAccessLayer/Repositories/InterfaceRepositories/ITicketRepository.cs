@@ -1,9 +1,6 @@
-﻿using DataAccessLayer.Models;
+﻿using DataAccessLayer.DTOs;
 
 namespace DataAccessLayer.Repositories.InterfaceRepositories
 {
-    public interface ITicketRepository : IEntityRepository<Ticket>
-    {
-
-    }
+    public interface ITicketRepository : IEntityRepository<TicketDTO>{}
 }

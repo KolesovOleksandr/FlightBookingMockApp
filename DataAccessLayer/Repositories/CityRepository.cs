@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DataAccessLayer.Repositories
 {
-    public class CityRepository : IEntityRepository<City>
+    public class CityRepository : ICityRepository
     {
         private readonly DbSet<City> _cities;
         public CityRepository(TimetableContext context)

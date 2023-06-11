@@ -1,4 +1,5 @@
-﻿
+﻿using Microsoft.EntityFrameworkCore;
+
 namespace DataAccessLayer.Models
 {
     public class Flight
